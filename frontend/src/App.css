@@ -37,11 +37,33 @@
   }
 }
 
-.link-icon{
+.link-icon {
   cursor: pointer;
   margin-right: 10px;
 }
 
 .project-description{
-  color: black;
+  color: rgb(160, 238, 121);
+  font-size: 20px;
+}
+
+.nav-bar{
+  margin-bottom: 80px;
+}
+
+.projects{
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1b2228;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
 }

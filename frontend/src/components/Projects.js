@@ -5,9 +5,7 @@ import ProjectCard from './ProjectCard'
 function Projects({projects}){
 
     const projectsArray = projects.map(project =>
-        <Accordion flush>
             <ProjectCard key={project.id} project={project} />
-        </Accordion>
     )
     return (
         <div>

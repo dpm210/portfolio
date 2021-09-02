@@ -9,6 +9,8 @@ import Intro from './components/Intro'
 import Music from './components/Music'
 import NavBar from './components/NavBar'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [projects, setProjects] = useState([])
@@ -31,6 +33,8 @@ console.log(projects)
           <Experience />
           <Projects projects={projects} />
           <Music />
+          <Contact />
+          <Footer />
       </header>
     </div>
   );
