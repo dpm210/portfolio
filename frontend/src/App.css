@@ -38,6 +38,10 @@
 }
 
 .link-icon{
-  margin-right: 10px;
   cursor: pointer;
+  margin-right: 10px;
+}
+
+.project-description{
+  color: black;
 }

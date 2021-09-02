@@ -1,11 +1,13 @@
 import { useEffect } from 'react'
-import Carousel from 'react-bootstrap/Carousel' 
+import Accordion from 'react-bootstrap/Accordion'
 import ProjectCard from './ProjectCard'
 
 function Projects({projects}){
 
-    const projectsArray = projects.map(project => 
-        <ProjectCard key={project.id} project={project} />
+    const projectsArray = projects.map(project =>
+        <Accordion flush>
+            <ProjectCard key={project.id} project={project} />
+        </Accordion>
     )
     return (
         <div>
